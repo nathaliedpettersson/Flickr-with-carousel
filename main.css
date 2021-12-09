@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background-color: #B4B9BF;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 1rem;
+    color: #F29849;
+}
+
+ button {
+    background-color:#F29849;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-left: 1rem;
+    font-size: 1rem;
+} 
+
+#message {
+    font-family: monospace;
+    font-size: 1rem;
+    margin: 5rem; 
+}
+
+#div-message {
+    display: flex;
+    justify-content: center;      
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+#bootstrap-carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel img {
+    max-height: 65vh;
+}
